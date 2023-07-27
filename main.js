@@ -67,6 +67,12 @@ eraserButton.addEventListener("click", () => {
     eraser = true;
 })
 
+const clearButton = document.getElementById("clearGrid");
+
+
+clearButton.addEventListener("click", () => {
+    createGrid(50);
+})
 
 // Function for changing color
 function changeColor(div) {
