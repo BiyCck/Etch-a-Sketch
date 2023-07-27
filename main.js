@@ -90,4 +90,4 @@ slider.oninput = function() {
     output.innerHTML = `${slider.value}x${slider.value}`;
 }
 
-createGrid(document.getElementById("dimension-input").value);
+createGrid(50);
